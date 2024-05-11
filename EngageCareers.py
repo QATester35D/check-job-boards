@@ -9,8 +9,7 @@ from _global import launchBrowserAndURL
 
 #Engage - get results count for searching on "test" 
 def getJobsFromEngage():
-#   urlLM="https://engagestaff.jobs.net/jobs?keywords=test&location="
-  urlLM="https://engagestaff.jobs.net/jobs?keywords=Billing&location="
+  urlLM="https://engagestaff.jobs.net/jobs?keywords=test&location="
   browserDriver=launchBrowserAndURL(urlLM)
   try:
     resultsText=browserDriver.find_element(By.ID, "job-count").text

@@ -6,8 +6,8 @@ from LockheedMartinCareers import getJobsFromLockheed
 from AllStateCareers import getJobsFromAllState
 from EngageCareers import getJobsFromEngage
 
-# getJobsFromCimpress()
-# getJobsFromGoogle()
-# getJobsFromLockheed()
-# getJobsFromAllState()
+getJobsFromCimpress()
+getJobsFromGoogle()
+getJobsFromLockheed()
+getJobsFromAllState()
 getJobsFromEngage()
